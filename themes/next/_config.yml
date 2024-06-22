@@ -157,8 +157,9 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  #GitHub: https://github.com/yourname || fab fa-github
-  #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+  BiliBili: https://space.bilibili.com/188609215 || fa fa-brands fa-bilibili
+  GitHub: https://github.com/wanstu || fab fa-github
+  E-Mail: mailto:wanstu@163.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -169,6 +170,7 @@ social:
 
 social_icons:
   enable: true
+  GitHub: github
   icons_only: false
   transition: false
 
@@ -225,8 +227,8 @@ footer:
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, https://beian.mps.gov.cn
   beian:
-    enable: false
-    icp:
+    enable: true
+    icp: 豫ICP备2022012079号-2
     # The digit in the num of gongan beian.
     gongan_id:
     # The full num of gongan beian.
