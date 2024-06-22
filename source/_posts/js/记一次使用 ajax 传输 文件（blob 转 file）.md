@@ -8,3 +8,4 @@ formFile.append("userfile", file);
 let ajax = new XMLHttpRequest();
 ajax.open('POST','/api/file/uploadFormFile?userfile=' + fileName,true)
 ajax.send(formFile)
+
