@@ -1,4 +1,11 @@
 /* global CONFIG */
+document.onkeydown = function(e) {
+  // https://javascript.info/keyboard-events
+  if (e.ctrlKey && e.code == "KeyF") {
+      document.querySelector("i.fa.fa-search.fa-fw").click();
+      e.preventDefault();
+  }
+};
 
 window.addEventListener('tabs:register', () => {
   let { activeClass } = CONFIG.comments;
