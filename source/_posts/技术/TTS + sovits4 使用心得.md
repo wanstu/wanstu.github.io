@@ -1,5 +1,5 @@
 ---
-title: TTS + sovits4.0 使用心得
+title: TTS + sovits4 使用心得
 date: 2023-07-07 16:20:48
 tags:
 ---
