@@ -12,8 +12,7 @@ tags:
 > 所用平台：[autodl](https://www.autodl.com)
 >
 > 配置信息：
->
-> ![file](https://s2.loli.net/2024/01/24/raqgHYEx6T7hSQw.png)
+> ![highlight](http://img.wanstu.cn/vscode/picgo/highlight.png)
 >
 > api 地址 https://host/docs
 >
