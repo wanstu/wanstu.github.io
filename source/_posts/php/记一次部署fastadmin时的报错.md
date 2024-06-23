@@ -8,9 +8,9 @@ Uncaught Error: Script error for "lang", needed by: fast
 
 Failed to load resource: the server responded with a status of 404 (Not Found)
 
-![](https://www.helloimg.com/images/2022/07/26/Zw4YfK.png)
+![20240623211624](http://img.wanstu.cn/vscode/picgo/20240623211624.png)
 
-![](https://www.helloimg.com/images/2022/07/26/Zw4hqb.png)
+![20240623211645](http://img.wanstu.cn/vscode/picgo/20240623211645.png)
 通过修改伪静态解决
 
 ```

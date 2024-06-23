@@ -246,7 +246,6 @@ date: 2024-06-22 00:00:00
 
 多个关系之间的主码和外码约束可以用模式图来表示
 
-![image-20220110143915014](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220110143915014.png)
-
+![20240623211709](http://img.wanstu.cn/vscode/picgo/20240623211709.png)
 ## 数据库设计
 

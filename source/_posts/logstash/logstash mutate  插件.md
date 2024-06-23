@@ -6,5 +6,5 @@ date: 2024-06-22 00:00:00
 
 修改字段 content 为 barrage
 
-![test](https://gitee.com/w_c_y_929/extra_bed/raw/master/content)
+![20240623211613](http://img.wanstu.cn/vscode/picgo/20240623211613.png)
 
