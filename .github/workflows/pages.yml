@@ -5,7 +5,6 @@ on:
   push:
     branches:
       - main  # default branch
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,24 +14,24 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           # If your repository depends on submodule, please see: https://github.com/actions/checkout
           submodules: recursive
-      - name: Use Node.js 18.20.1
+      - name: '使用 node'
         uses: actions/setup-node@v4
         with:
           # Examples: 20, 18.19, >=16.20.2, lts/Iron, lts/Hydrogen, *, latest, current, node
           # Ref: https://github.com/actions/setup-node#supported-version-syntax
           node-version: '18.20.1'
-      - name: Cache NPM dependencies
+      - name: '缓存 npm 依赖'
         uses: actions/cache@v4
         with:
           path: node_modules
           key: ${{ runner.OS }}-npm-cache
           restore-keys: |
             ${{ runner.OS }}-npm-cache
-      - name: Install Dependencies
+      - name: '安装依赖'
         run: npm install
       - name: Build
         run: npm run build
-      - name: Upload Pages artifact
+      - name: '更新 pages'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
@@ -46,6 +45,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to GitHub Pages
+      - name: '部署到 pages'
         id: deployment
         uses: actions/deploy-pages@v4
