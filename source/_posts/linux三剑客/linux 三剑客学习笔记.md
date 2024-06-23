@@ -55,8 +55,7 @@ date: 2024-06-22 00:00:00
 >
 > - 如果想对文件操作，需要使用 -i 参数
 
-![image-20220125112714719](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220125112714719.png)
-
+![20240623211354](http://img.wanstu.cn/vscode/picgo/20240623211354.png)
 
 
 ### sed 查找（查）
@@ -119,17 +118,17 @@ date: 2024-06-22 00:00:00
 
 >  先保护再使用
 
-![image-20220125164030359](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220125164030359.png)
+![20240623211404](http://img.wanstu.cn/vscode/picgo/20240623211404.png)
 
 总结
 
-![image-20220126141021069](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220126141021069.png)
+![20240623211410](http://img.wanstu.cn/vscode/picgo/20240623211410.png)
 
 ## awk
 
 ### 执行过程
 
-![image-20220126141749339](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220126141749339.png)
+![20240623211419](http://img.wanstu.cn/vscode/picgo/20240623211419.png)
 
 ### 内置变量
 
@@ -165,11 +164,11 @@ date: 2024-06-22 00:00:00
 >
 > -  取出网卡IP地址
 >
-> ![image-20220127140536702](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220127140536702.png)
+> ![20240623211431](http://img.wanstu.cn/vscode/picgo/20240623211431.png)
 >
 > - 解析nginx日志，得到返回状态不是200的请求信息（状态码 IP 请求类型 请求url )
 >
-> ![image-20220127142928528](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220127142928528.png)
+> ![20240623211450](http://img.wanstu.cn/vscode/picgo/20240623211450.png)
 
 ## awk 模式匹配
 
@@ -178,8 +177,7 @@ date: 2024-06-22 00:00:00
 #### 正则的使用
 
 - 使用 ~// 使用正则表达式
-
-![image-20220127144939289](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220127144939289.png)
+![20240623211500](http://img.wanstu.cn/vscode/picgo/20240623211500.png)
 
 ```shell
 wanqq@DESKTOP-QL4SAK6:/mnt/d/study/nginx/logs/parsing-record$ cat access.log | awk -F" +" 'BEGIN{print "状态码 IP 请求类型 请求url"} NR < 20 && ($9~/[^23][0-9]{2}/) {print $9,$1,$6,$7}' | sed 's#"##' | column -t
@@ -197,8 +195,7 @@ wanqq@DESKTOP-QL4SAK6:/mnt/d/study/nginx/logs/parsing-record$ cat access.log | a
 
 
 
-![image-20220127145539934](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220127145539934.png)
-
+![20240623211524](http://img.wanstu.cn/vscode/picgo/20240623211524.png)
 - 使用 //,// 来限制范围
 
 ```shell
@@ -222,8 +219,7 @@ wanqq@DESKTOP-QL4SAK6:/mnt/d/study/nginx/logs/parsing-record$ cat access.log | a
 ```
 
 
-
-![image-20220127150737776](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220127150737776.png)
+![20240623211533](http://img.wanstu.cn/vscode/picgo/20240623211533.png)
 
 - 特殊模式
 
