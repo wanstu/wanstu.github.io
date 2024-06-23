@@ -57,8 +57,7 @@ CMD ["/home/run.sh"]
 ```
 
 - polymeric.DockerFile 和 layered.DockerFile 构建出的镜像大小类似
-
-![1639731053383.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f450f47eabf34b46841476db676de582~tplv-k3u1fbpfcp-watermark.image?)
+![20240623211043](http://img.wanstu.cn/vscode/picgo/20240623211043.png)
 
 - 但是 polymeric.DockerFile 构建出的镜像层数比 layered.DockerFile 少，见仁见智吧
 - my-lnp8.zip 和 my-lnp7.zip 中均有 resource.tar.gz 文件 内容仅有少许差异，这里只列举 my-lnp8.zip 中的resource.tar.gz 文件

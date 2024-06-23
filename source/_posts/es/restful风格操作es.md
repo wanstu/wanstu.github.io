@@ -36,7 +36,7 @@ PUT /test/_doc/doc1
 }
 ```
 
-![image-20220106164558013](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220106164558013.png)
+![20240623211112](http://img.wanstu.cn/vscode/picgo/20240623211112.png)
 
 ### 更新文档
 
@@ -47,7 +47,7 @@ PUT /test/_doc/doc1
 }
 ```
 
-![image-20220106172051965](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220106172051965.png)
+![20240623211120](http://img.wanstu.cn/vscode/picgo/20240623211120.png)
 
 ## 指定数据类型创建索引
 
@@ -64,7 +64,7 @@ PUT /test1
 }
 ```
 
-![image-20220106165647716](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220106165647716.png)
+![20240623211129](http://img.wanstu.cn/vscode/picgo/20240623211129.png)
 
 - 创建索引时，可以设置 字段的 类型 和 分词器
 
@@ -85,7 +85,7 @@ PUT /test
 }
 ```
 
-![image-20220107094211268](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220107094211268.png)
+![20240623211137](http://img.wanstu.cn/vscode/picgo/20240623211137.png)
 
 # GET
 
@@ -95,7 +95,7 @@ PUT /test
  GET test1
 ```
 
-![image-20220106170007996](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220106170007996.png)
+![20240623211146](http://img.wanstu.cn/vscode/picgo/20240623211146.png)
 
 ### 获取健康值
 
@@ -103,13 +103,12 @@ PUT /test
 GET _cat/health
 ```
 
-![image-20220106170814673](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220106170814673.png)
-
+![20240623211225](http://img.wanstu.cn/vscode/picgo/20240623211225.png)
 ```
 GET _cat/indices?v
 ```
+![20240623211215](http://img.wanstu.cn/vscode/picgo/20240623211215.png)
 
-![image-20220106170921309](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220106170921309.png)
 
 
 
@@ -126,7 +125,7 @@ POST /test/_doc/doc1/_update
 }
 ```
 
-![image-20220106172205021](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220106172205021.png)
+![20240623211235](http://img.wanstu.cn/vscode/picgo/20240623211235.png)
 
 ### 搜索 字段
 
@@ -141,6 +140,6 @@ POST /23031625/_doc/_search
 }
 ```
 
-![image-20220106180108316](https://gitee.com/w_c_y_929/extra_bed/raw/master/image-20220106180108316.png)
+![20240623211244](http://img.wanstu.cn/vscode/picgo/20240623211244.png)
 
  
