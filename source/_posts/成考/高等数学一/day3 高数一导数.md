@@ -3,6 +3,8 @@ title: 高数一导数
 tags:
 ---
 # 导数
+## 基本公式
+$\lim\limits_{\Delta x \to 0} f^{'}(x_0) = \frac{f(x_0 + \Delta x) - f(x_0)}{\Delta x}$
 ## 求导
 ### 常见求导公式
 
@@ -30,9 +32,28 @@ tags:
 19.  <mark>$(\sqrt{x})^{'} = (x^\frac{1}{2})^{'} = \frac{1}{2}x^{(-\frac{1}{2})} = \frac{1}{2(\sqrt{x})}$</mark>
 > \* 标记的重点记
 ## 运算法则
-- 和差的导数等于导数的和差
-  $(u \pm v)^{'} = (u)^{'} \pm (v)^{'}$ 
-- 积的导数等于前导后不导加上前不导后导
+- <mark>和差的导数等于导数的和差</mark>
+  $(u \pm v)^{'} = (u)^{'} \pm (v)^{'}$
+- <mark>积的导数等于前导后不导加上前不导后导</mark>
   $(kv)^{'} = (k)^{'}v + k(v)^{'}$
-- 商的导数等于上导下不导减上不导下导除以下的平方
+- <mark>商的导数等于上导下不导减上不导下导除以下的平方</mark>
   $(\frac{u}{v})^{'} = \frac{(u)^{'}v - u(v)^{'}}{v^2}$
+
+# <mark>复合函数求导</mark>
+## 定义
+$y = sinx$ 和 $y=x^2$ 属于基本函数
+但是 $y = sinx^2$ 是复合函数 $y = t^2$ & $t=sinx$
+## 求导
+1. 假设
+2. 分别求导
+3. 回代
+
+eg:
+$y = sin t$ & $t = x^2$
+$y^{'} = \frac{\delta y}{\delta x} = \frac{\delta y}{\delta t} * \frac{\delta t}{\delta x} $
+$ = (sint)^{'} * (x^2)^{'} = const * 2x = 2x * cos x^2 $
+
+# 微分方程
+$y^{'} = \frac{\delta y}{\delta x}$
+
+<mark>$\delta y = y^{'} * \delta x$</mark>
