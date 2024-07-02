@@ -8,10 +8,11 @@
     "deploy": "hexo deploy",
     "server": "hexo server --draft",
     "s": "hexo server --draft",
+    "c": "hexo clean",
     "new": "hexo new draft"
   },
   "hexo": {
-    "version": "7.2.0"
+    "version": "7.3.0"
   },
   "dependencies": {
     "hexo": "^7.3.0",
