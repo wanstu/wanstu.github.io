@@ -10,11 +10,12 @@ tags:
 2. *<mark>$(x^a)^{'} = ax^{a-1}$</mark>
 3. <mark>$(log_ax)^{'} = \frac{1}{xlina}$</mark>
 4. *<mark>$(lnx)^{'} = \frac{1}{x}$</mark>
+   > $(lnC)^{'} = 0$ **ln常数的导数为0**
 5. <mark>$(a^x)^{'} = a^xlna$</mark>
 6. *<mark>$(e^x)^{'} = e^x$</mark>
 7. *<mark>$(sinx)^{'} = cosx$</mark>
 8. *<mark>$(cosx)^{'} = -sinx$</mark>
-9. \*$(tanx)^{'} = sec^2x$
+9.  \*$(tanx)^{'} = sec^2x$
 10. $(cotx)^{'} = -csc^2x$
 11. \*$(arcsinx)^{'} = \frac{1}{\sqrt{1 - x^2}}$
 12. $(arccosx)^{'} = -\frac{1}{\sqrt{1-x^2}}$
@@ -24,8 +25,9 @@ tags:
 16. $(cscx)^{'} = -cscx * cotx$
 > 特殊的公式
 17. \*<mark>$(Cu)^{'} = C(u)^{'}$</mark>
-18. <mark>$(\frac{1}{x})^{'} = (x^{-1})^{'} = -x^{-2} = -\frac{1}{x^2}$</mark>
-19. <mark>$(\sqrt{x})^{'} = (x^\frac{1}{2})^{'} = \frac{1}{2}x^{(-\frac{1}{2})} = \frac{1}{2(\sqrt{x})}$</mark>
+   > 常数可以提取出来
+18.  <mark>$(\frac{1}{x})^{'} = (x^{-1})^{'} = -x^{-2} = -\frac{1}{x^2}$</mark>
+19.  <mark>$(\sqrt{x})^{'} = (x^\frac{1}{2})^{'} = \frac{1}{2}x^{(-\frac{1}{2})} = \frac{1}{2(\sqrt{x})}$</mark>
 > \* 标记的重点记
 ## 运算法则
 - 和差的导数等于导数的和差
